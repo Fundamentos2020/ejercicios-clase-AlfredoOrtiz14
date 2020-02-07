@@ -1,0 +1,29 @@
+p{
+    color:red;
+}
+
+#parrafo2{
+    color:green;
+}
+
+.class1{
+    color:blue;
+}
+
+input:focus{
+    background-color: red;
+}
+
+button:hover{
+    background-color: salmon;
+    border-color: salmon;
+}
+
+p::first-letter{
+    font-size: 35px;
+}
+
+p::selection{
+    background-color: tomato;
+    color: white;
+}
