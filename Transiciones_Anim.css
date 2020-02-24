@@ -1,0 +1,68 @@
+@keyframes ejemplo1{
+    /*from {background-color:yellow;}
+    to{background-color: red;}*/
+    0% {left: 200px;}
+    25% {left: 200px; top: 200px;}
+    50% {left: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+
+
+#tran{
+    background-color: tomato;
+    width: 200px;
+    height: 100px;
+    transition: height 2s;
+}
+
+#tran:hover{
+    height: 500px;
+}
+
+#anim{
+    background-color: green;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+#div_menu{
+    background-color: black;
+    color: white;
+}
+
+#menu{
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+    width: 50%;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    width: 200;
+}
+
+#menu li:hover{
+    color: yellowgreen;
+    background-color: green;
+}
+
+#search{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+#search input{
+    width: 50px;
+    transition: width 2s;
+}
+
+#search input:focus {
+    width: 150px;
+}
